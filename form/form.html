@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey form</title>
+    <style type="text/css">
+
+        body{
+            background-color: lightgreen;
+        }
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+
+        form {
+            margin: 50px auto;
+            padding: 30px 30px;
+            max-width: 750px;
+            background-color: white;
+        }
+
+        .form-control input,
+        .form-control select{
+            display: block;
+            padding: 10px;
+            width: 95%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align :center;">The Demo Survey Form</h1>
+
+    <form style="text-align: center;">
+        <fieldset>
+
+            <div class="form-control">
+                <label style="display: block; margin-bottom: 10px">First Name</label>
+                <input type="text" id="one" name="Name" placeholder="Enter Your first name" required>
+            </div>
+
+            <div class="form-control">
+                <label style="display: block; margin-bottom: 10px">Last Name</label>
+                <input type="text" id="two" name="Name" placeholder="Enter Your last name" required>
+            </div>
+
+            <div class="form-control">
+                <label style="display: block; margin-bottom: 10px">Birth Date</label>
+                <input type="date" name="Name" placeholder="Enter Your date of Birth" required>
+            </div>
+
+            <div class="form-control">
+                <label style="display: block; margin-bottom: 10px">Please select your Country</label>
+                <select>
+                    <option>India</option>
+                    <option>Africa</option>
+                    <option>Germany</option>
+                    <option>America</option>
+                    <option>Netherland</option>
+                    <option>Russia</option>
+                </select>
+            </div>
+
+            <div class="form-control">
+                <label style="display: block; margin-bottom: 10px">Gender</label>
+                <input type="radio" name="chice" required>Male
+                <input type="radio" name="chice" required>Female
+            </div>
+
+            <div class="form-control">
+                <label style="display: block; margin-bottom: 10px">Profession</label>
+                <input type="text" name="Name" placeholder="Enter Your Profession" required>
+            </div>
+
+            <div class="form-control">
+                <label style="display: block; margin-bottom: 10px">Email</label>
+                <input type="email" name="Name" placeholder="Enter Your Email id" required>
+            </div>
+
+            <div class="form-control">
+                <label style="display: block; margin-bottom: 10px">Mobile Number</label>
+                <input type="tel" name="Name" placeholder="Enter Your Phone Number" required>
+            </div>
+
+            <button type="submit">submit</button>
+            <button type="reset">reset</button>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
